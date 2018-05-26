@@ -1,6 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Shrulik</Authors>
+    <Copyright>ISC License</Copyright>
+    <PackageProjectUrl>https://github.com/Shrulik/GeoNKDbush</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Shrulik/GeoNKDbush</RepositoryUrl>
+    <PackageTags>spatial kdtree kd-tree index Geo Spatial Geospatial Geo-Spatial knn nearest neighbours</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NKDBush" Version="1.0.0" />
