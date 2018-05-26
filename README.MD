@@ -9,7 +9,7 @@ The points will be returned ordered by being closet to furthest.
 It implements fast [nearest neighbors](https://en.wikipedia.org/wiki/Nearest_neighbor_search) queries
 for locations on Earth, taking Earth curvature and date line wrapping into account.
 Direct port of [geokdbush](https://github.com/mourner/geokdbush)
-Which itself was inspired by [sphere-knn](https://github.com/darkskyapp/sphere-knn), but uses a different algorithm.
+wghich itself was inspired by [sphere-knn](https://github.com/darkskyapp/sphere-knn), but uses a different algorithm.
 
 A geographic extension for [nkdbush](https://github.com/Shrulik/NKDbush).
 
