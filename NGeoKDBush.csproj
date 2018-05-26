@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NKDBush" Version="1.0.0" />
+    <PackageReference Include="OptimizedPriorityQueue" Version="4.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="NGeoKDBush.Test\**" />
+    <Compile Remove="NGeoKDBush.Test\Data\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="NGeoKDBush.Test\**" />
+    <EmbeddedResource Remove="NGeoKDBush.Test\Data\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="NGeoKDBush.Test\**" />
+    <None Remove="NGeoKDBush.Test\Data\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NGeoKDBush.Test" />
+  </ItemGroup>
+</Project>
