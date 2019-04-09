@@ -4,8 +4,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Shrulik</Authors>
     <Copyright>ISC License</Copyright>
-    <PackageProjectUrl>https://github.com/Shrulik/GeoNKDbush</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/Shrulik/GeoNKDbush</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Shrulik/NGeoKDBush</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Shrulik/NGeoKDBush</RepositoryUrl>
     <PackageTags>spatial kdtree kd-tree index Geo Spatial Geospatial Geo-Spatial knn nearest neighbours</PackageTags>
   </PropertyGroup>
   <ItemGroup>

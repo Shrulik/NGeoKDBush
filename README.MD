@@ -1,15 +1,10 @@
 ## NGeoKDBush 
 
-This library allows indexing geographical points, and then querying for all points  
-of interest that are some distance from some location.  
-
+This library allows indexing geographical points, and then querying for all points of interest that are some distance from some location. 
 The points will be returned ordered by being closet to furthest.
 
 
-It implements fast [nearest neighbors](https://en.wikipedia.org/wiki/Nearest_neighbor_search) queries
-for locations on Earth, taking Earth curvature and date line wrapping into account.
-Direct port of [geokdbush](https://github.com/mourner/geokdbush)
-wghich itself was inspired by [sphere-knn](https://github.com/darkskyapp/sphere-knn), but uses a different algorithm.
+It implements fast [nearest neighbors](https://en.wikipedia.org/wiki/Nearest_neighbor_search) queries for locations on Earth, taking Earth curvature and date line wrapping into account. Direct port of [geokdbush](https://github.com/mourner/geokdbush) which itself was inspired by [sphere-knn](https://github.com/darkskyapp/sphere-knn), but uses a different algorithm.
 
 A geographic extension for [nkdbush](https://github.com/Shrulik/NKDbush).
 
@@ -42,6 +37,5 @@ Returns great circle distance between two locations in kilometers.
 
 ### Performance
 
-I have found the performance of this port fast enough for my purposes,  
-so I haven't yet had the justification to run micro-bechmarks.  
+I have found the performance of this port fast enough for my purposes, so I haven't yet had the justification to run micro-bechmarks.  
 However, I'm sure many performance improvements are possilbe and I might get to it someday.  

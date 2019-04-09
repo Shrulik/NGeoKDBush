@@ -8,7 +8,7 @@ using Shrulik.NGeoKDBush;
 using Shrulik.NKDBush;
 using Xunit;
 
-namespace CityZen.Core.GeoSpatial.Tests
+namespace Shrulik.NGeoKDBush.Tests
 {
     public class GeoKDBushTests
     {
@@ -98,12 +98,7 @@ namespace CityZen.Core.GeoSpatial.Tests
                 float dist = (float) geoKdBush.Distance(points[i].Lon, points[i].Lat,
                     searchPoint.Lon, searchPoint.Lat);
 
-//                sorted[i].dist.Should().Be( dist, $"because they should be the same cities. Found : {sorted[i].item.Name}," +
-//                                                  $"Expected {points[i].Name}");
-//                                sorted[i].dist.Should().BeSameAs(dist);
-
                 Assert.Equal(dist, sorted[i].dist);
-//                Assert.Equal(points[i].Name, sorted[i].item.Name);
             }
         }
 
